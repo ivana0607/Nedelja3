@@ -28,6 +28,8 @@ btnYourOrder.addEventListener('click', (e) => {
     app1.innerHTML = `You ordered ${counter} pizza <br> at 
      ${time.getHours()}: ${time.getMinutes()}: ${time.getSeconds()} 
      on ${time.getDate()}. ${time.getMonth() + 1}. ${time.getFullYear()}.`;
+     counter = 0;
+     pCount.innerHTML = "Order : " + counter;
   }
 })
 
